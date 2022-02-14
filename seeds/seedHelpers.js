@@ -42,4 +42,3 @@ module.exports.places = [
   'Cliffs',
   'Hollow',
 ];
->>>>>>> a10809bd0e2541f49d6184798f2aa588f142bc15
