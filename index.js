@@ -2,6 +2,7 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
+
 const Campground = require('./models/campground');
 // const res = require('express/lib/response');
 
@@ -27,6 +28,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/campground', async (req, res) => {
+
   const camp = new Campground({ title: 'backyard', description: 'cheap' });
   await camp.save();
   res.send(camp);
