@@ -2,12 +2,13 @@
 const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
-// const res = require('express/lib/response');
+
 const Campground = require('./models/campground');
+// const res = require('express/lib/response');
 
 mongoose.connect('mongodb://localhost:27017/yelp_camp', {
   useNewUrlParser: true,
-  // useCreateIndex: true, // giving an error: unsupported
+  // useCreateIndex: true,
   useUnifiedTopology: true,
 });
 
@@ -27,10 +28,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/campground', async (req, res) => {
-  const camp = new Campground({
-    title: 'My Backyard',
-    description: 'cheep camping',
-  });
+
+  const camp = new Campground({ title: 'backyard', description: 'cheap' });
   await camp.save();
   res.send(camp);
 });
