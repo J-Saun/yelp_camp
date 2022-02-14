@@ -1,0 +1,24 @@
+{
+  "name": "yelp_camp",
+  "version": "1.0.0",
+  "description": "a campground review app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Saun/yelp_camp.git"
+  },
+  "author": "Joshua S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J-Saun/yelp_camp/issues"
+  },
+  "homepage": "https://github.com/J-Saun/yelp_camp#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  }
+}
