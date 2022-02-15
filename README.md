@@ -1,12 +1,10 @@
-# yelp_camp
+<h1 align="center"><project-name>Yelp Camp</h1>
 
-<h1 align="center"><project-name></h1>
-
-<p align="center"><project-description></p>
+<p align="center"><project-description>A website to rate and review campgrounds around the country</p>
 
 ## Links
 
-- [Repo](https://github.com/Rohit19060/<project-name> '<project-name> Repo')
+- [Repo](https://github.com/J-Saun/yelp_camp)
 
 - [Live](<Homepage url> 'Live View')
 
@@ -51,12 +49,16 @@ For running the server file on you can use this command.
 
 ## Built With
 
-- JavaScript
-- Node
-- NPM
-- Webpack
 - HTML
 - CSS
+- JavaScript
+- EJS
+- Node
+- Express
+- MongoDb
+- Mongoose
+- NPM
+- Webpack
 
 ## Future Updates
 
@@ -64,14 +66,10 @@ For running the server file on you can use this command.
 
 ## Author
 
-**Rohit Jain**
+**Joshua Saunders**
 
-- [Profile](https://github.com/rohit19060 'Rohit jain')
-- [Email](mailto:rohitjain19060@gmail.com?subject=Hi 'Hi!')
+- [Profile](https://github.com/rohit19060 'Joshua Saunders')
+- [Email](mailto:Joshua_Saun@protonmail.com 'Hello Joshua!')
 - [Website](https://kingtechnologies.in 'Welcome')
-
-## 🤝 Support
-
-Contributions, issues, and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
